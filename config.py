@@ -1,14 +1,14 @@
 """FontaraBot — Config"""
 import os
 
-BOT_TOKEN   = os.getenv("BOT_TOKEN", "")
+BOT_TOKEN   = os.getenv("BOT_TOKEN", "8888241754:AAFQ4finYefgOy7XDGflwLjkVyCxT95pIOw")
 WEBHOOK_URL = os.getenv("WEBHOOK_URL", "")
 PORT        = int(os.getenv("PORT", "8080"))
 
 ADMIN_IDS: list[int] = [8127675696]
 
 CHANNELS = [
-    {"id": "@NeuroParallax", "label": "⚡ NeuroParallax", "url": "https://t.me/NeuroParallax"},
+    {"id": "@MindRupture", "label": "⚡ Mindrupture", "url": "https://t.me/MindRupture"},
     {"id": "@LaceraBots",    "label": "🔥 LaceraBots",    "url": "https://t.me/LaceraBots"},
 ]
 
